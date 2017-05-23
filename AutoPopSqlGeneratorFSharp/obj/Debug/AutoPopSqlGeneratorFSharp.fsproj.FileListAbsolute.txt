@@ -1,0 +1,10 @@
+c:\users\kchoi\documents\visual studio 2013\Projects\AutoPopSqlGenerator\AutoPopSqlGeneratorFSharp\bin\Debug\AutoPopSqlGeneratorFSharp.XML
+c:\users\kchoi\documents\visual studio 2013\Projects\AutoPopSqlGenerator\AutoPopSqlGeneratorFSharp\bin\Debug\AutoPopSqlGeneratorFSharp.dll
+c:\users\kchoi\documents\visual studio 2013\Projects\AutoPopSqlGenerator\AutoPopSqlGeneratorFSharp\bin\Debug\AutoPopSqlGeneratorFSharp.pdb
+c:\users\kchoi\documents\visual studio 2013\Projects\AutoPopSqlGenerator\AutoPopSqlGeneratorFSharp\obj\Debug\AutoPopSqlGeneratorFSharp.dll
+c:\users\kchoi\documents\visual studio 2013\Projects\AutoPopSqlGenerator\AutoPopSqlGeneratorFSharp\obj\Debug\AutoPopSqlGeneratorFSharp.pdb
+C:\Users\KChoi\Documents\Visual Studio 2013\Projects\AutoPopSqlGenerator\bin\AutoPopSqlGeneratorFSharp.dll
+C:\Users\KChoi\Documents\Visual Studio 2013\Projects\AutoPopSqlGenerator\bin\AutoPopSqlGeneratorFSharp.pdb
+C:\Users\KChoi\Documents\Visual Studio 2013\Projects\AutoPopSqlGenerator\bin\AutoPopSqlGeneratorFSharp.XML
+C:\Users\KChoi\Documents\Visual Studio 2013\Projects\AutoPopSqlGenerator\AutoPopSqlGeneratorFSharp\bin\Debug\AutoPopSqlGeneratorFSharp.dll.config
+C:\Users\KChoi\Documents\Visual Studio 2013\Projects\AutoPopSqlGenerator\bin\AutoPopSqlGeneratorFSharp.dll.config

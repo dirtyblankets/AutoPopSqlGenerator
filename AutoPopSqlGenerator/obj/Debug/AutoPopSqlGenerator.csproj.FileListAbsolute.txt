@@ -1,0 +1,9 @@
+c:\users\kchoi\documents\visual studio 2013\Projects\AutoPopSqlGenerator\AutoPopSqlGenerator\bin\Debug\AutoPopSqlGeneratorForm.exe.config
+c:\users\kchoi\documents\visual studio 2013\Projects\AutoPopSqlGenerator\AutoPopSqlGenerator\bin\Debug\AutoPopSqlGeneratorForm.exe
+c:\users\kchoi\documents\visual studio 2013\Projects\AutoPopSqlGenerator\AutoPopSqlGenerator\bin\Debug\AutoPopSqlGeneratorForm.pdb
+c:\users\kchoi\documents\visual studio 2013\Projects\AutoPopSqlGenerator\AutoPopSqlGenerator\obj\Debug\AutoPopSqlGenerator.csprojResolveAssemblyReference.cache
+c:\users\kchoi\documents\visual studio 2013\Projects\AutoPopSqlGenerator\AutoPopSqlGenerator\obj\Debug\AutoPopSqlGenerator.Form1.resources
+c:\users\kchoi\documents\visual studio 2013\Projects\AutoPopSqlGenerator\AutoPopSqlGenerator\obj\Debug\AutoPopSqlGenerator.Properties.Resources.resources
+c:\users\kchoi\documents\visual studio 2013\Projects\AutoPopSqlGenerator\AutoPopSqlGenerator\obj\Debug\AutoPopSqlGenerator.csproj.GenerateResource.Cache
+c:\users\kchoi\documents\visual studio 2013\Projects\AutoPopSqlGenerator\AutoPopSqlGenerator\obj\Debug\AutoPopSqlGeneratorForm.exe
+c:\users\kchoi\documents\visual studio 2013\Projects\AutoPopSqlGenerator\AutoPopSqlGenerator\obj\Debug\AutoPopSqlGeneratorForm.pdb
