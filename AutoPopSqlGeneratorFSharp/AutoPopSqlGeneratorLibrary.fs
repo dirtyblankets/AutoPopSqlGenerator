@@ -11,6 +11,12 @@ open System
 
 module SqlGenerators =
 
+    let ternary(s:string) =
+        if (s = null)
+        then "NULL"
+        else
+            String.Format("\'{0}\'", s)
+
     // for SQL
     let GenerateNodePathSql (path:string) =
         let nodes = path.Replace(" ", "").Split[|'>'|]
@@ -96,7 +102,7 @@ module SqlGenerators =
             "insert into REV_AUTO_POPULATE_RESPONSE (REV_AUTO_POPULATE_RESPONSE_GU, REV_AUTO_POPULATE_GU, NAME, RESPONSE, ADDL_RESPONSE)" + System.Environment.NewLine
         
         let select name response addl_response =
-            fun x -> x + String.Format("select newid(), a{0}.REV_AUTO_POPULATE_GU, \'{1}\', \'{2}\', \'{3}\'", nodeLevels, name, response, addl_response)
+            fun x -> x + String.Format("select newid(), a{0}.REV_AUTO_POPULATE_GU, {1}, {2}, {3}", nodeLevels, ternary name, ternary response, ternary addl_response)
 
         let from =
             fun x -> x + " from REV_AUTO_POPULATE a1" + System.Environment.NewLine
@@ -225,7 +231,7 @@ module SqlGenerators =
             "insert into REV_AUTO_POPULATE_RESPONSE (REV_AUTO_POPULATE_RESPONSE_GU, REV_AUTO_POPULATE_GU, NAME, RESPONSE, ADDL_RESPONSE)" + System.Environment.NewLine
         
         let select name response addl_response =
-            fun x -> x + String.Format("select sys_guid(), a{0}.REV_AUTO_POPULATE_GU, \'{1}\', \'{2}\', \'{3}\'", nodeLevels, name, response, addl_response)
+            fun x -> x + String.Format("select sys_guid(), a{0}.REV_AUTO_POPULATE_GU, {1}, {2}, {3}", nodeLevels, ternary name, ternary response, ternary addl_response)
 
         let from =
             fun x -> x + " from REV_AUTO_POPULATE a1" + System.Environment.NewLine

@@ -48,14 +48,14 @@ namespace AutoPopSqlGenerator
                     }
                     else
                     {
-                        temp[i] = "";
+                        temp[i] = null;
                     }
                     i++;
                 }
 
-                if (temp[0] != ""
-                        || temp[1] != ""
-                            || temp[2] != "")
+                if (temp[0] != null
+                        || temp[1] != null
+                            || temp[2] != null)
                 {
                     responses.Add(temp);
                 }
