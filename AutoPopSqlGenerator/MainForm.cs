@@ -68,7 +68,7 @@ namespace AutoPopSqlGenerator
             if (responses.Count > 0)
             {
                 sqlInsertResponseScript = AutoPopSqlGeneratorFSharp.SqlGenerators.GenerateResponseInsertSql(path, SeqModule.ToList(responses));
-                oracleInsertResponseScript = AutoPopSqlGeneratorFSharp.SqlGenerators.GenerateResponseInsertSql(path, SeqModule.ToList(responses));
+                oracleInsertResponseScript = AutoPopSqlGeneratorFSharp.SqlGenerators.GenerateResponseInsertOracle(path, SeqModule.ToList(responses));
             } 
 
             if (sqlInsertResponseScript != null)
