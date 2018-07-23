@@ -14,4 +14,6 @@ Sample Sql Script
 
 Usage
 
-Used for Synergy Framework's Autopopulates
+Used for setting default auto populate data for Synergy Framework's Auto Populate
+
+![autopop](https://github.com/dirtyblankets/AutoPopSqlGenerator/blob/master/AutopopSample.png)
